@@ -32,7 +32,7 @@ terraform apply -auto-approve
 Once the Terraform has completed, then you can set up kubectl by running this command:
 
 ```bash
-aws eks --region $AWS_REGION update-kubeconfig --name tah-demo-cluster
+aws eks --region $AWS_REGION update-kubeconfig --name tar-demo-cluster
 ```
 
 Run the following command to deploy the sample application:

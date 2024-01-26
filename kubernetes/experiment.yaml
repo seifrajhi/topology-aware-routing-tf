@@ -1,4 +1,4 @@
-# Experimental deployment of retail store sample for testing TAH
+# Experimental deployment of retail store sample for testing tar
 # Usage: Generate manifest using your region via AWS_REGION=<replace-to-your-region> awk -i inplace '{ gsub(/{{region}}/,ENVIRON["AWS_REGION"]); print $0 }' experiment.yaml
 # kubectl apply --server-side -f experiment.yaml
 # Be sure to delete simple version before apply this! kubectl delete -f simple.yaml
