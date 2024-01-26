@@ -1,6 +1,6 @@
 # Topology aware hints demo
 
-This code is used to demostrate usage of `TopologyAwareHints` introduced on Kubernetes 1.24.
+This code is used to demostrate usage of `TopologyAwareHints` introduced on Kubernetes 1.27.
 
 ## What's included
 
